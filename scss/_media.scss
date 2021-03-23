@@ -1,0 +1,33 @@
+@media screen and (max-width: 990px) {
+  body {
+    padding-left: 0;
+  }
+
+  .profile {
+    left: -120%;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .home {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-heading {
+    margin: 0 1.5rem;
+  }
+
+  .profile {
+    width: 100vw;
+  }
+
+  .about {
+    .box {
+      width: 100%;
+    }
+  }
+}
