@@ -21,7 +21,7 @@
   &_avatar {
     display: block;
     height: 15rem;
-    border: .5rem solid $lightgray-color;
+    border: .4rem solid $lightgray-color;
     border-radius: 50%;
     margin-bottom: 1rem;
     object-fit: cover;
@@ -47,13 +47,14 @@
   }
 
   a {
+    width: 180px;
     display: block;
-    padding: .8rem;
-    margin: 1rem 0;
+    padding: .8rem .2rem;
+    margin: 1rem auto;
     font-size: 1.2rem;
     color: $lightgray-color;
     background-color: lighten($secondary-color, 25%);
-    border-radius: 2.5rem;
+    border-radius: .5rem;
 
     &:hover {
       background-color: $red-color;
